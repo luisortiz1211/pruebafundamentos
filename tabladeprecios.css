@@ -1,0 +1,65 @@
+h2{
+    font-weight: 100px;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: rebeccapurple;
+}
+
+.Contenedor{
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Lato', sans-serif;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;/* permite que las columanas ocupen el ancho disponible*/
+
+}
+.text-center{
+    text-align: center;/* */
+    
+}
+.Columna{
+    background:whitesmoke;
+    color:#333;
+    border:2px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px slategray;
+    width:17%;
+    box-sizing: border-box;/* border y el padding se acomodan al ancho de la ventana*/
+
+}
+.Precio{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+}
+.ventaprecio{
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color:white;
+    font-family:   'Arial Narrow Bold', sans-serif;
+    box-shadow: 5px 5px 10px slategray;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 10px 10px;
+}
+.ventaprecio:hover{
+    background: tomato;
+}
+
+@media(max-width:1070px){
+    .Columna{
+        width: 40%;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:600px){
+    .Columna{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
