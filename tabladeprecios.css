@@ -19,8 +19,8 @@ h2{
     
 }
 .Columna{
-    background:whitesmoke;
-    color:#333;
+    background:#726a95;
+    color:#f3c623;
     border:2px solid black;
     margin: 0 auto;
     padding: 10px;
@@ -36,10 +36,10 @@ h2{
     color: aqua;
 }
 .ventaprecio{
-    background: salmon;
+    background: #32e0c4;
     display: block;
     padding: 10px;
-    color:white;
+    color:black;
     font-family:   'Arial Narrow Bold', sans-serif;
     box-shadow: 5px 5px 10px slategray;
     border-radius: 5px;
